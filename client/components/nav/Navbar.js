@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Logo from "./Logo";
+
 import * as styles from "./Navbar.module.css";
+import logo from "../../assets/1280x708Logo.jpg";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,8 +15,12 @@ export default function Navbar() {
   return (
     <nav style={{ backgroundColor: "#2c2c2c" }}>
       <ul className={styles.nav}>
-        <li>
-          <Logo />
+        <li className={styles.logo}>
+          <img
+            src={logo}
+            className={styles.logo}
+            alt="Broadway Coin & Stamp Exchange Logo"
+          />
         </li>
         <li>
           <h1 className={styles.title}>Broadway Coin & Stamp Exchange</h1>

@@ -6,13 +6,18 @@
   list-style: none;
   width: 70%;
   margin: 0 auto;
-  position: relative; /* Ensure nav items are positioned relative */
+  position: relative;
 }
 
 .title {
   font-size: 2rem;
   text-align: center;
   margin: 0;
+}
+
+.logo {
+  width: 9rem;
+  height: auto;
 }
 
 .navLinks {
@@ -61,4 +66,22 @@
   .showMenu {
     display: flex;
   }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 4rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .menuIcon {
+    /* font-size: 1.8rem; 
+    margin-bottom: 1rem; */
+    white-space: nowrap;
+  }
+
+  /* Stack the title and menu icon on a second line */
 }
