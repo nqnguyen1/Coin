@@ -68,8 +68,16 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
+  .nav {
+    display: grid;
+    grid-column: 2fr 1fr;
+    gap: 1rem;
+  }
   .logo {
+    grid-column: 1/3;
+    margin: 0 auto;
+  } /* .logo {
     width: 4rem;
   }
 
@@ -78,10 +86,9 @@
   }
 
   .menuIcon {
-    /* font-size: 1.8rem; 
-    margin-bottom: 1rem; */
+
     white-space: nowrap;
-  }
+  } */
 
   /* Stack the title and menu icon on a second line */
 }
