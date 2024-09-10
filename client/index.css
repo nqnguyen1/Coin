@@ -136,8 +136,8 @@ button,
   background-color: #cd7f32; /* Bronze for Call-to-Action Buttons */
   color: white;
   border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   cursor: pointer;
 }
 
