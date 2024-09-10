@@ -10,7 +10,7 @@ export default function Main() {
   return (
     <main className={styles.container}>
       <section className={styles.one}>
-        <h3>Buy Sell Coins, Bullions and Stamps</h3>
+        <h2>Buy Sell Coins, Bullions and Stamps</h2>
         <div>
           <p>
             Lorem ipsum dolor sit amet, in corpora tractatos iudicabit cum. Eu
@@ -25,14 +25,7 @@ export default function Main() {
         </div>
       </section>
       <section className={styles.two}>
-        <img
-          src={example}
-          style={{
-            width: "70%",
-            maxWidth: "400px",
-            height: "auto",
-          }}
-        ></img>
+        <img src={example} className={styles.exampleImg}></img>
       </section>
       <section className={styles.three}>
         <h2>Lorem Ipsum</h2>
@@ -48,14 +41,7 @@ export default function Main() {
         </p>
       </section>
       <section className={styles.four}>
-        <img
-          src={gold}
-          style={{
-            width: "70%",
-            maxWidth: "400px",
-            height: "auto",
-          }}
-        ></img>
+        <img src={gold} className={styles.exampleImg}></img>
       </section>
       <section className={styles.five}>
         <h2>Lorem Ipsum</h2>
@@ -71,14 +57,7 @@ export default function Main() {
         </p>
       </section>
       <section className={styles.six}>
-        <img
-          src={stamp}
-          style={{
-            width: "70%",
-            maxWidth: "400px",
-            height: "auto",
-          }}
-        ></img>
+        <img src={stamp} className={styles.exampleImg}></img>
       </section>
       <section className={styles.seven}>
         <h2>Lorem Ipsum</h2>

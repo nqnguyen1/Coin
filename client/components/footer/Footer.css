@@ -52,6 +52,11 @@
 }
 
 /* Responsive Styling */
+@media (max-width: 1250px) {
+  .footer-content {
+    width: 100%;
+  }
+}
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column; /* Stack sections vertically */
