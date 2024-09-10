@@ -4,6 +4,7 @@ import Main from "./components/body/Main";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/footer/Footer";
+
 export default function App() {
   return (
     <div>
