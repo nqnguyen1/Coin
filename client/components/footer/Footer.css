@@ -7,9 +7,10 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
+
   margin: 0 auto;
   flex-wrap: wrap;
+  width: 70%;
 }
 
 .footer-about,
