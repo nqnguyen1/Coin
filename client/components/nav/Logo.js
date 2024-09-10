@@ -9,10 +9,9 @@ export default function Logo() {
         style={{
           width: "9rem",
           height: "auto",
-          paddingLeft: "2rem",
         }}
-      ></img>
-      <h3>Buy Sell Coins, Bullion and Stamps</h3>
+        alt="Broadway Coin & Stamp Exchange Logo"
+      />
     </div>
   );
 }

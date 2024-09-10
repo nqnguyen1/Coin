@@ -3,7 +3,7 @@ import Logo from "./Logo";
 import * as styles from "./Navbar.module.css";
 export default function Navbar() {
   return (
-    <nav>
+    <nav style={{ backgroundColor: "#2c2c2c" }}>
       <ul className={styles.nav}>
         <li>
           <Logo></Logo>
@@ -14,6 +14,7 @@ export default function Navbar() {
 
         <li style={{ display: "flex", gap: "1rem" }}>
           <button>About us</button>
+          <button>Products</button>
           <button>Contact us</button>
         </li>
       </ul>
