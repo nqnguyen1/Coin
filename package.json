@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production && npm run postbuild ",
+    "postbuild": "node scripts/remove-index-css.js && node scripts/deploy.js",
     "dev": "webpack-dev-server --mode development\""
   },
   "author": "",
@@ -13,7 +14,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.26.2",
+    "react-router-dom": "^6.27.0",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
   },
@@ -25,7 +26,10 @@
     "concurrently": "^8.0.1",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
+    "ftp-deploy": "^2.4.7",
     "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.9.1",
+    "replace-in-file": "^8.2.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.83.1",
     "webpack-cli": "^5.1.1",

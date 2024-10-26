@@ -8,7 +8,13 @@
   margin: 0 auto;
   position: relative;
 }
-
+.link {
+  color: inherit; /* Keeps the link color consistent with the rest of the text */
+  text-decoration: none; /* Removes underline */
+}
+.link:hover {
+  color: #ccc; /* Optional: Adds a hover effect */
+}
 .title {
   font-size: 2rem;
   text-align: center;

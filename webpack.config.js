@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   entry: "./client/index.js",
@@ -23,12 +24,6 @@ module.exports = {
     filename: "bundle.js",
     publicPath: "/",
   },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: "./client/index.html",
-    }),
-  ],
-
   module: {
     rules: [
       {
@@ -43,7 +38,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.jsx?/, //either .js or .jsx
+        test: /\.jsx?$/, // either .js or .jsx
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
@@ -55,10 +50,36 @@ module.exports = {
           },
         },
       },
+      // Rule for regular CSS files (non-CSS Modules)
       {
         test: /\.css$/,
-        use: ["style-loader", "css-loader"],
+        exclude: /\.module\.css$/, // Exclude CSS Modules
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
+      },
+      // Rule for CSS Modules
+      {
+        test: /\.module\.css$/, // Target only .module.css files
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: "css-loader",
+            options: {
+              modules: {
+                localIdentName: "[name]__[local]__[hash:base64:5]", // Generates unique class names
+              },
+            },
+          },
+        ],
       },
     ],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./client/index.html",
+    }),
+    new MiniCssExtractPlugin({
+      filename: "[name].css",
+      chunkFilename: "[id].css",
+    }),
+  ],
 };
