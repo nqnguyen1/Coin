@@ -1,13 +1,17 @@
 import React from "react";
 import "./Footer.css"; // Import the CSS file for the footer styling
-import Logo from "../nav/Logo";
+import logo from "../../assets/1280x708Logo.jpg";
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact-section">
       <div className="footer-content">
         {/* Left Section: Logo and About */}
         <div className="footer-about">
-          <Logo></Logo>
+          <img
+            src={logo}
+            className="logo"
+            alt="Broadway Coin & Stamp Exchange Logo"
+          />
           <h3>Broadway Coin & Stamp Exchange</h3>
           <p>
             We are specialists in the buying and selling of rare coins, bullion,
@@ -19,21 +23,27 @@ const Footer = () => {
         <div className="footer-contact">
           <h3>Contact Info</h3>
           <p>
-            <strong>Phone:</strong> <a href="">619-440-0362</a>
+            <strong>Phone:</strong>{" "}
+            <a className="footer-special" href="">
+              619-440-0362
+            </a>
           </p>
           <p>
-            <strong>Email:</strong> <a href="">greg@broadwaycoin.com</a>
+            <strong>Email:</strong>{" "}
+            <a className="footer-special" href="">
+              greg@broadwaycoin.com
+            </a>
           </p>
           <p>
             <strong>Business Hours:</strong>
           </p>
-          <p>Mon-Sat: 9am - 5pm</p>
+          <p className="footer-special">Mon-Sat: 9am - 5pm</p>
 
-          <p>Closed on Sunday</p>
+          <p className="footer-special">Closed on Sunday</p>
           <p>
             <strong>Address:</strong>
           </p>
-          <p>473 Broadway, El Cajon, CA 92021</p>
+          <p className="footer-special">473 Broadway, El Cajon, CA 92021</p>
         </div>
 
         {/* Right Section: Google Map Embed */}

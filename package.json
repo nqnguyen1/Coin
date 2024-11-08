@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production && npm run postbuild ",
+    "build": "webpack --mode production ",
     "postbuild": "node scripts/remove-index-css.js && node scripts/deploy.js",
     "dev": "webpack-dev-server --mode development\""
   },

@@ -1,3 +1,39 @@
+.title {
+  font-family: "myFont", serif;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.titleContainer {
+  text-align: center;
+  padding: 0 2rem;
+}
+.tagline {
+  font-size: 1rem;
+  font-style: italic;
+  color: #d4af37;
+}
+
+.cta {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #b35200; /* Deep orange */
+  color: white;
+  height: 2rem; /* Fixed height */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #993e00;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -12,14 +48,6 @@
   color: inherit; /* Keeps the link color consistent with the rest of the text */
   text-decoration: none; /* Removes underline */
 }
-.link:hover {
-  color: #ccc; /* Optional: Adds a hover effect */
-}
-.title {
-  font-size: 2rem;
-  text-align: center;
-  margin: 0;
-}
 
 .logo {
   width: 9rem;
@@ -29,10 +57,49 @@
 .navLinks {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .menuIcon {
   display: none;
+}
+
+.logoJS {
+  display: flex;
+  align-items: center;
+}
+
+.textLine1 {
+  font-size: 1.9rem;
+  color: #ffffff;
+  letter-spacing: 0.1em; /* Space out the letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+  margin: 0;
+}
+
+.underline {
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 2px 0;
+}
+
+.textLine2 {
+  letter-spacing: 0.1em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.mobile {
+  display: none;
+}
+
+@media (max-width: 1485px) {
+  .nav {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1250px) {
@@ -41,11 +108,32 @@
   }
 }
 
-@media (max-width: 900px) {
-  .title {
-    font-size: 1.5rem;
+@media (max-width: 700px) {
+  .logo,
+  .cta {
+    display: none;
+  }
+  .nav {
+    justify-content: center;
   }
 
+  .mobile {
+    display: block; /* Show the button on smaller screens */
+    position: fixed;
+    bottom: 20px; /* Distance from the bottom of the screen */
+    right: 20px; /* Distance from the left of the screen */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+}
+
+@media (max-width: 900px) {
+  .tagline {
+    display: none;
+  }
+  .logo {
+    width: 7rem;
+    height: auto;
+  }
   .navLinks {
     display: none;
     flex-direction: column;
@@ -75,26 +163,8 @@
 }
 
 @media (max-width: 550px) {
-  .nav {
-    display: grid;
-    grid-column: 2fr 1fr;
-    gap: 1rem;
-  }
   .logo {
     grid-column: 1/3;
     margin: 0 auto;
-  } /* .logo {
-    width: 4rem;
   }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .menuIcon {
-
-    white-space: nowrap;
-  } */
-
-  /* Stack the title and menu icon on a second line */
 }

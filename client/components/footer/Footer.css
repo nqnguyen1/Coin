@@ -20,9 +20,9 @@
   margin: 0 20px;
 }
 
-.footer-logo {
-  max-width: 100px;
-  margin-bottom: 10px;
+.logo {
+  width: 9rem;
+  height: auto;
 }
 
 .footer h3 {
@@ -35,7 +35,7 @@
   font-size: 0.95rem;
 }
 
-.footer a {
+.footer-special {
   color: #ffd700;
   text-decoration: none;
 }

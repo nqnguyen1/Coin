@@ -1,55 +1,97 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import * as styles from "./Navbar.module.css";
-import logo from "../../assets/1280x708Logo.jpg";
+import logoPNG from "../../assets/Logo 13/Logo 13.png";
+import coinPNG from "../../assets/Logo Front/Logo Front.png";
 
 export default function Navbar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const toggleMenu = () => {
+  //   setIsMenuOpen((prev) => !prev);
+  // };
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    const handleResize = () => setWidth(window.innerWidth);
 
-  const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
-  };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
-    <nav style={{ backgroundColor: "#2c2c2c" }}>
-      <ul className={styles.nav}>
-        <li className={styles.logo}>
-          <Link to="/" onClick={toggleMenu}>
-            <img
-              src={logo}
-              className={styles.logo}
-              alt="Broadway Coin & Stamp Exchange Logo"
-            />
-          </Link>
-        </li>
-        <li>
-          <h1 className={styles.title}>Broadway Coin & Stamp Exchange</h1>
-        </li>
+    <>
+      <nav style={{ backgroundColor: "#2c2c2c" }}>
+        <ul className={styles.nav}>
+          <li className={styles.logo}>
+            <Link to="/">
+              <img
+                src={logoPNG}
+                className={styles.logo}
+                alt="Broadway Coin & Stamp Exchange Logo"
+              />
+            </Link>
+          </li>
+          <li className={styles.titleContainer}>
+            {width > 700 ? (
+              <h1 className={styles.title}>Broadway Coin & Stamp Exchange</h1>
+            ) : (
+              <Link to="/" className={styles.link}>
+                <div className={styles.logoJS}>
+                  <div>
+                    <h1 className={styles.textLine1}>BROADWAY</h1>
+                    <div className={styles.underline}></div>
+                    <h1 className={styles.textLine2}>COIN & STAMP</h1>
+                  </div>
+                  <span>
+                    <img
+                      src={coinPNG}
+                      style={{
+                        width: "5rem",
+                        height: "auto",
+                        marginLeft: "1rem",
+                      }}
+                    ></img>
+                  </span>
+                </div>
+              </Link>
+            )}
+          </li>
 
-        <li className={styles.menuIcon}>
+          {/* <li className={styles.menuIcon}>
           <button onClick={toggleMenu}>&#9776;</button>
-        </li>
+        </li> */}
 
-        <li
-          className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}
-        >
-          <button>
+          <li
+          // className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}
+          >
+            {/* <button className={styles.cta}>
             <Link to="/about" onClick={toggleMenu} className={styles.link}>
               About Us
             </Link>
           </button>
-          <button>
+          <button className={styles.cta}>
             <Link to="/products" onClick={toggleMenu} className={styles.link}>
               Products
             </Link>
-          </button>
-          <button>
+          </button> */}
+            <button className={styles.cta}>
+              <a className={styles.link} href="#contact-section">
+                Contact Us
+              </a>
+            </button>
+            {/* <button className={styles.cta}>
             <Link to="/contact" onClick={toggleMenu} className={styles.link}>
               Contact Us
             </Link>
-          </button>
-        </li>
-      </ul>
-    </nav>
+          </button> */}
+          </li>
+        </ul>
+      </nav>
+
+      <button className={`${styles.cta} ${styles.mobile}`}>
+        <a className={styles.link} href="#contact-section">
+          Contact Us
+        </a>
+      </button>
+    </>
   );
 }
