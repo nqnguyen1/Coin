@@ -45,12 +45,21 @@
   margin-top: 5rem;
 }
 
-main > h2 {
-  margin-top: 0;
-}
 .featureContainer > h2 {
   font-weight: 500;
   font-size: 2rem;
+}
+
+.three > h2,
+.five > h2,
+.seven > h2 {
+  margin-top: 0;
+}
+
+.three > p,
+.five > p,
+.seven > p {
+  line-height: 2;
 }
 
 @media (max-width: 1250px) {
@@ -65,11 +74,6 @@ main > h2 {
     gap: 1rem;
   }
 
-  /* .two,
-  .four,
-  .six {
-    justify-content: flex-start;
-  } */
   .one {
     margin-bottom: 0;
   }
@@ -106,5 +110,10 @@ main > h2 {
   }
   .featureContainer {
     margin-top: 0;
+  }
+  .three > p,
+  .five > p,
+  .seven > p {
+    line-height: 1.2;
   }
 }
