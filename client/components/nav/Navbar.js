@@ -45,7 +45,7 @@ export default function Navbar() {
                     <img
                       src={coinPNG}
                       style={{
-                        width: "5rem",
+                        width: "4rem",
                         height: "auto",
                         marginLeft: "1rem",
                       }}
@@ -73,25 +73,14 @@ export default function Navbar() {
               Products
             </Link>
           </button> */}
-            <button className={styles.cta}>
+            <button className={`${styles.cta} ${styles.mobile}`}>
               <a className={styles.link} href="#contact-section">
                 Contact Us
               </a>
             </button>
-            {/* <button className={styles.cta}>
-            <Link to="/contact" onClick={toggleMenu} className={styles.link}>
-              Contact Us
-            </Link>
-          </button> */}
           </li>
         </ul>
       </nav>
-
-      <button className={`${styles.cta} ${styles.mobile}`}>
-        <a className={styles.link} href="#contact-section">
-          Contact Us
-        </a>
-      </button>
     </>
   );
 }

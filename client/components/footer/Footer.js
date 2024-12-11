@@ -21,29 +21,24 @@ const Footer = () => {
 
         {/* Middle Section: Contact Info */}
         <div className="footer-contact">
-          <h3>Contact Info</h3>
-          <p>
-            <strong>Phone:</strong>{" "}
-            <a className="footer-special" href="">
-              619-440-0362
-            </a>
+          <h3 className="footer-special">Contact Info</h3>
+          <p className="footer-special">
+            <strong>Phone:</strong> <a href="">619-440-0362</a>
           </p>
           <p>
-            <strong>Email:</strong>{" "}
-            <a className="footer-special" href="">
-              greg@broadwaycoin.com
-            </a>
+            <strong className="footer-special">Email:</strong>{" "}
+            <a href="">greg@broadwaycoin.com</a>
           </p>
-          <p>
+          <p className="footer-special">
             <strong>Business Hours:</strong>
           </p>
-          <p className="footer-special">Mon-Sat: 9am - 5pm</p>
+          <p>Mon-Sat: 9am - 5pm</p>
 
-          <p className="footer-special">Closed on Sunday</p>
-          <p>
+          <p>Closed on Sunday</p>
+          <p className="footer-special">
             <strong>Address:</strong>
           </p>
-          <p className="footer-special">473 Broadway, El Cajon, CA 92021</p>
+          <p>473 Broadway, El Cajon, CA 92021</p>
         </div>
 
         {/* Right Section: Google Map Embed */}

@@ -121,22 +121,28 @@ table {
 }
 
 @font-face {
-  font-family: "myFont";
+  font-family: "TrajanBolded";
   src: url("./assets/Font/TrajanP0.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Trajan";
+  src: url("./assets/Font/TrajanP2.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background-color: white;
-
   color: #2c2c2c; /* Charcoal Black Text */
-  font-family: "myFont", serif; /* Classy serif font */
+  font-family: "Trajan", serif; /* Classy serif font */
 }
 
 h1,
 h2,
 h3 {
+  font-family: "TrajanBolded", serif; /* Classy serif font */
   color: #d4af37; /* Gold for Headings */
 }
 
