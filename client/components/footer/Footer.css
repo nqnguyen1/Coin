@@ -41,7 +41,9 @@
 }
 
 .footer a:hover {
+  color: #d4af37;
   text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 .footer-map iframe {

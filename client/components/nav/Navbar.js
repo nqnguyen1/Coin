@@ -4,6 +4,30 @@ import * as styles from "./Navbar.module.css";
 import logoPNG from "../../assets/Logo 13/Logo 13.png";
 import coinPNG from "../../assets/Logo Front/Logo Front.png";
 
+function MobileTitle() {
+  return (
+    <Link to="/" className={styles.link}>
+      <div className={styles.logoJS}>
+        <div>
+          <h1 className={styles.textLine1}>BROADWAY</h1>
+          <div className={styles.underline}></div>
+          <h1 className={styles.textLine2}>COIN & STAMP</h1>
+        </div>
+        <span>
+          <img
+            src={coinPNG}
+            style={{
+              width: "4rem",
+              height: "auto",
+              marginLeft: "1rem",
+            }}
+          ></img>
+        </span>
+      </div>
+    </Link>
+  );
+}
+
 export default function Navbar() {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
   // const toggleMenu = () => {
@@ -34,25 +58,7 @@ export default function Navbar() {
             {width > 700 ? (
               <h1 className={styles.title}>Broadway Coin & Stamp Exchange</h1>
             ) : (
-              <Link to="/" className={styles.link}>
-                <div className={styles.logoJS}>
-                  <div>
-                    <h1 className={styles.textLine1}>BROADWAY</h1>
-                    <div className={styles.underline}></div>
-                    <h1 className={styles.textLine2}>COIN & STAMP</h1>
-                  </div>
-                  <span>
-                    <img
-                      src={coinPNG}
-                      style={{
-                        width: "4rem",
-                        height: "auto",
-                        marginLeft: "1rem",
-                      }}
-                    ></img>
-                  </span>
-                </div>
-              </Link>
+              <MobileTitle />
             )}
           </li>
 

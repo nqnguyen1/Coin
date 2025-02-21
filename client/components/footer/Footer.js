@@ -23,11 +23,11 @@ const Footer = () => {
         <div className="footer-contact">
           <h3 className="footer-special">Contact Info</h3>
           <p className="footer-special">
-            <strong>Phone:</strong> <a href="">619-440-0362</a>
+            <strong>Phone:</strong> <a href="tel:619-440-0362">619-440-0362</a>
           </p>
           <p>
             <strong className="footer-special">Email:</strong>{" "}
-            <a href="">greg@broadwaycoin.com</a>
+            <a href="mailto:greg@broadwaycoin.com">greg@broadwaycoin.com</a>
           </p>
           <p className="footer-special">
             <strong>Business Hours:</strong>

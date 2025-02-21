@@ -12,14 +12,16 @@ import "slick-carousel/slick/slick-theme.css";
 export default function App() {
   return (
     <Router>
-      <div>
+      <div className="app-container">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/about" element={<AboutUs />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/contact" element={<ContactUs />} />
-        </Routes>
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/about" element={<AboutUs />} />
+            <Route path="/products" element={<Products />} />
+            <Route path="/contact" element={<ContactUs />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </Router>
