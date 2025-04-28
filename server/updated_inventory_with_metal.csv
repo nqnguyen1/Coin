@@ -1,0 +1,133 @@
+Inv_NUM,Country,Date,Denomination,Type,Grade,Cost_Code,Date_Code,Cost,Price,Profit,Status,DateEntered,Denomination_Value,Denomination_Unit,Metal_Type
+14383,US,1955 Bugs Bunny,50c,Franklin,MS-63,AATR,HBTA,$15.00,20.0,18.0,Available,2410,50,c,Unknown
+14382,US,1857,1c,Flying Eagle,VG,AATR,HBTA,$15.00,33.0,18.0,Available,2410,1,c,Gold
+14381,US,1875,1c,Indian,XF,AATR,HBTA,$15.00,110.0,18.0,Available,2410,1,c,Copper
+14380,US,1901,1c,Indian,Unc,AATR,HBTA,$15.00,36.0,18.0,Available,2410,1,c,Copper
+14379,US,1940,50c,Walking Liberty,MS-62,AATR,HBTA,$600.00,690.0,18.0,Available,2410,50,c,Silver
+14378,US,1946-S,50c,Walking Liberty,MS-63,AATR,HBTA,$25.00,57.0,18.0,Available,2410,50,c,Silver
+14377,US,1943-S,50c,Walking Liberty,AU58,AATR,HBTA,$8.00,35.0,18.0,Available,2410,50,c,Silver
+14376,US,1854,10c,Seated Liberty,Fine Cleaned,AATR,HBTA,$8.00,17.0,18.0,Available,2410,10,c,Silver
+14375,US,1854,10c,Seated Liberty,VG Cleaned,AATR,HBTA,$8.00,15.0,18.0,Available,2410,10,c,Silver
+14374,US,1845,10c,Seated Liberty,Fine Cleaned,AATR,HBTA,$8.00,18.0,18.0,Available,2410,10,c,Silver
+14373,US,1876-CC,10c,Seated Liberty,VG Cleaned,AATR,HBTA,$19.00,36.0,18.0,Available,2410,10,c,Silver
+14372,US,1876-CC,10c,Seated Liberty,VF,AATR,HBTA,$35.00,69.0,18.0,Available,2410,10,c,Silver
+14371,US,1887,10c,Seated Liberty,XF,AATR,HBTA,$35.00,27.0,18.0,Available,2410,10,c,Silver
+14370,US,1876-CC,10c,Seated Liberty,VF,AATR,HBTA,$35.00,69.0,18.0,Available,2410,10,c,Silver
+14369,US,1931-S,10c,Mercury,AU,AATR,HBTA,$6.00,55.0,18.0,Available,2410,10,c,Silver
+14368,US,1931-D,10c,Mercury,AU,AATR,HBTA,$6.00,55.0,18.0,Available,2410,10,c,Silver
+14367,US,1930-S,10c,Mercury,AU58,AATR,HBTA,$6.00,77.0,18.0,Available,2410,10,c,Silver
+14366,US,1923-S,10c,Mercury,VF+,AATR,HBTA,$6.00,45.0,18.0,Available,2410,10,c,Silver
+14365,US,1920,10c,Mercury,AU,AATR,HBTA,$6.00,8.0,18.0,Available,2410,10,c,Silver
+14364,US,1916-S,10c,Mercury,AU,AATR,HBTA,$6.00,21.0,18.0,Available,2410,10,c,Silver
+14363,US,1954,50c,Franklin,Proof,AATR,HBTA,$15.00,33.0,18.0,Available,2410,50,c,Unknown
+14362,US,1956,50c,Buffalo,Proof,AATR,HBTA,$15.00,25.0,10.0,Available,2410,50,c,Gold
+14361,US,1930-S,5c,Buffalo,AU,AATR,HBTA,$15.00,33.0,18.0,Available,2410,5,c,Gold
+14360,US,1876,1c,Indian,Fine,AAHA,HBTA,$20.00,71.0,51.0,Available,2410,1,c,Copper
+14359,US,1875,1c,Indian,VG,AATH,HBTA,$12.00,33.0,21.0,Available,2410,1,c,Copper
+14358,US,1914-S,1c,Lincoln,VF,AATA,HBTA,$10.00,25.0,15.0,Available,2410,1,c,Copper
+14357,US,1919-D,10c,Mercury,Good,AATA,HBTA,$10.00,20.0,10.0,Available,2410,10,c,Silver
+14356,US,1913-D Type I,5c,Buffalo,VF,AATA,HBTA,$10.00,27.0,17.0,Available,2410,5,c,Gold
+14355,US,1911,10c,Barber,Good,AAAR,HBTA,$5.00,26.0,21.0,Available,2410,10,c,Silver
+14354,US,1929-S,5c,Buffalo,AU,AATA,HBTA,$10.00,22.0,12.0,Available,2410,5,c,Gold
+14353,US,1923,25c,Standing Liberty,XF,AAHR,HBTA,$25.00,46.0,21.0,Available,2410,25,c,Silver
+14352,US,1877-S,25c,Seated Liberty,XF Cleaned,AAHA,HBTA,$20.00,60.0,40.0,Available,2410,25,c,Silver
+14351,US,1921,10c,Mercury,Good,AAHA,HBTA,$20.00,48.0,28.0,Available,2410,10,c,Silver
+14350,US,1914-S,10c,Barber,Good,AAHA,HBTA,$20.00,46.0,26.0,Available,2410,10,c,Silver
+14349,US,1903-S,10c,Barber,Good,AAHA,HBTA,$20.00,66.0,46.0,Available,2410,10,c,Silver
+14348,US,1857,1c,Flying Eagle,Fine,AATB,HBTA,$14.00,44.0,30.0,Available,2410,1,c,Gold
+14347,US,1909-S,1c,Lincoln,VF+,AARR,HBTA,$55.00,120.0,65.0,Available,2410,1,c,Copper
+14346,US,1932-D,25c,Washington,Very Good,AAHA,HBTA,$20.00,77.0,57.0,Available,2410,25,c,Silver
+14345,US,1883 NC,5c,Liberty Nickel,XF,AATB,HBTA,$14.00,46.0,32.0,Available,2410,5,c,Nickel
+14344,US,1938-D,5c,Buffalo,MS65,AAHR,HBTA,$25.00,59.0,34.0,Available,2410,5,c,Gold
+14343,US,1914-D,5c,Buffalo,Fine,AAHR,HBTA,$25.00,98.0,73.0,Available,2410,5,c,Gold
+14342,US,1918-S,5c,Buffalo,Fine,AATB,HBTA,$14.00,46.0,32.0,Available,2410,5,c,Gold
+14341,US,1925-D,5c,Buffalo,Fine,AATA,HBAC,$10.00,35.0,25.0,Available,2409,5,c,Gold
+14340,US,1931-S,5c,Buffalo,XF,AATA,HBAC,$10.00,28.0,18.0,Available,2409,5,c,Gold
+14339,US,1926-D,5c,Buffalo,Fine,AATA,HBAC,$10.00,24.0,14.0,Available,2409,5,c,Gold
+14338,US,1927-S,5c,Buffalo,VF,AATA,HBAC,$10.00,33.0,23.0,Available,2409,5,c,Gold
+14337,US,1925-S,5c,Buffalo,Fine,AATA,HBAC,$10.00,17.0,7.0,Available,2409,5,c,Gold
+14336,US,1926,5c,Buffalo,XF,AATA,HBAC,$10.00,12.0,2.0,Available,2409,5,c,Gold
+14335,US,1926-S,5c,Buffalo,VG,AATA,HBAC,$10.00,44.0,34.0,Available,2409,5,c,Gold
+14334,US,1924-S,5c,Buffalo,VG,AATA,HBAC,$10.00,33.0,23.0,Available,2409,5,c,Gold
+14333,US,1921-S,5c,Buffalo,Good,AATA,HBAC,$10.00,49.0,39.0,Available,2409,5,c,Gold
+14332,US,1921,5c,Buffalo,Fine,AATA,HBAC,$10.00,6.0,4.0,Available,2409,5,c,Gold
+14331,US,1923-S,5c,Buffalo,Fine,AATA,HBAC,$10.00,81.0,71.0,Available,2409,5,c,Gold
+14330,US,1920-S,5c,Buffalo,Fine,AATA,HBAC,$10.00,18.0,8.0,Available,2409,5,c,Gold
+14329,US,1913 Type II,5c,Buffalo,XF,AATN,HBAC,$18.00,20.0,2.0,Available,2409,5,c,Gold
+14328,US,1913 Type I,5c,Buffalo,AU,AATA,HBAC,$10.00,20.0,10.0,Available,2409,5,c,Gold
+14327,US,1919,5c,Buffalo,AU58,AATA,HBAC,$10.00,37.0,27.0,Available,2409,5,c,Gold
+14326,US,1918-D,5c,Buffalo,VG,AATA,HBAC,$10.00,29.0,19.0,Available,2409,5,c,Gold
+14325,US,1918,5c,Buffalo,VF,AATA,HBAC,$10.00,7.0,3.0,Available,2409,5,c,Gold
+14324,US,1917-D,5c,Buffalo,Fine,AAAR,HBAC,$5.00,41.0,36.0,Available,2409,5,c,Gold
+14323,US,1915-D,5c,Buffalo,Good,AAAR,HBAC,$5.00,17.0,12.0,Available,2409,5,c,Gold
+14322,US,1916-D,5c,Buffalo,XF,AAAR,HBAC,$5.00,66.0,61.0,Available,2409,5,c,Gold
+14321,US,1916,5c,Buffalo,AU-58,AAAR,HBAC,$5.00,35.0,30.0,Available,2409,5,c,Gold
+14320,US,1915-S,5c,Buffalo,Good,AAAR,HBAC,$5.00,33.0,28.0,Available,2409,5,c,Gold
+14319,US,1915,5c,Buffalo,XF,AAAR,HBAC,$5.00,20.0,15.0,Available,2409,5,c,Gold
+14318,US,1914-S,5c,Buffalo,Fine,AAAR,HBAC,$5.00,36.0,31.0,Available,2409,5,c,Gold
+14317,US,1917-S,5c,Buffalo,VF,AAAR,HBAC,$5.00,110.0,105.0,Available,2409,5,c,Gold
+14316,US,1913-D Type I,5c,Buffalo,AU-58,AAOR,HBAC,$65.00,66.0,1.0,Available,2409,5,c,Gold
+14315,US,1913-S Type II,5c,Buffalo,VG,AAOR,HBAC,$65.00,132.0,67.0,Available,2409,5,c,Gold
+14314,US,1913-S Type I,5c,Buffalo,AU-58,AAOR,HBAC,$65.00,115.0,50.0,Available,2409,5,c,Gold
+14313,US,1928-D,25c,Standing Liberty,VF,AAAO,HBAC,$6.00,14.0,8.0,Available,2409,25,c,Silver
+14312,US,1930-S,25c,Standing Liberty,MS-63,AATR,HBAC,$15.00,235.0,220.0,Available,2409,25,c,Silver
+14311,US,1928-S,25c,Standing Liberty,XF,AATR,HBAC,$15.00,33.0,18.0,Available,2409,25,c,Silver
+14310,US,1926-D,25c,Standing Liberty,Fine,AATR,HBAC,$15.00,22.0,7.0,Available,2409,25,c,Silver
+14309,US,1927-S,25c,Standing Liberty,Fine+,AATR,HBAC,$15.00,127.0,112.0,Available,2409,25,c,Silver
+14308,US,1923,25c,Standing Liberty,XF,AATR,HBAC,$15.00,46.0,31.0,Available,2409,25,c,Silver
+14307,US,1920-D,25c,Standing Liberty,VF+,AATR,HBAC,$15.00,165.0,150.0,Available,2409,25,c,Silver
+14306,US,1920,25c,Standing Liberty,VF,AATR,HBAC,$15.00,31.0,16.0,Available,2409,25,c,Silver
+14305,US,1917-D Type I,25c,Standing Liberty,VF,AATR,HBAC,$15.00,99.0,84.0,Available,2409,25,c,Silver
+14304,US,1929-S,10c,Mercury,XF,AAAR,HBAC,$5.00,26.0,21.0,Available,2409,10,c,Silver
+14303,US,1929-S,10c,Mercury,AU-58,AAAR,HBAC,$5.00,22.0,17.0,Available,2409,10,c,Silver
+14302,US,1926-S,10c,Mercury,VF,AATR,HBAC,$15.00,71.0,56.0,Available,2409,10,c,Silver
+14301,US,1921-D,10c,Mercury,Good,AAHN,HBAC,$28.00,55.0,27.0,Available,2409,10,c,Silver
+14300,US,1921,10c,Mercury,Good,AAHN,HBAC,$28.00,44.0,16.0,Available,2409,10,c,Silver
+14299,US,1916-S,10c,Mercury,AU,AATA,HBAC,$10.00,20.0,10.0,Available,2409,10,c,Silver
+14298,US,1919-D,10c,Mercury,XF,AATA,HBAC,$10.00,49.0,39.0,Available,2409,10,c,Silver
+14297,US,1919-S,10c,Mercury,VF,AATA,HBAC,$10.00,18.0,8.0,Available,2409,10,c,Silver
+14296,US,1919-S,10c,Mercury,VF,AATA,HBAC,$10.00,18.0,8.0,Available,2409,10,c,Silver
+14295,US,1926-S,10c,Mercury,VF,AAER,HBAC,$35.00,71.0,36.0,Available,2409,10,c,Silver
+14294,US,1926-S,10c,Mercury,VF,AAER,HBAC,$35.00,71.0,36.0,Available,2409,10,c,Silver
+14293,US,1926-S,10c,Mercury,VF,AAER,HBAC,$35.00,71.0,36.0,Available,2409,10,c,Silver
+14292,US,1926-S,10c,Mercury,Fine,AAER,HBAC,$35.00,71.0,36.0,Available,2409,10,c,Silver
+14291,US,1822,1c,Coronet Head,Good,AATA,HBAC,$10.00,27.0,17.0,Available,2409,1,c,Unknown
+14290,US,1814,1c,Classic Head,VG,AAOR,HBAC,$65.00,220.0,155.0,Available,2409,1,c,Unknown
+14289,US,1803 SM Date,1c,Draped Bust,VG corroded,AAHN,HBAC,$28.00,60.0,32.0,Available,2409,1,c,Unknown
+14288,US,1919-S,10c,Mercury,XF,AATA,HBAC,$10.00,35.0,25.0,Available,2409,10,c,Silver
+14287,US,1921,10c,Mercury,Good,AAHN,HBAC,$28.00,44.0,16.0,Available,2409,10,c,Silver
+14286,US,1912,50c,Barber,VG,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14285,US,1933-S,50c,Walking Liberty,VF,AATA,HBAC,$10.00,31.0,21.0,Available,2409,50,c,Silver
+14284,US,1917,50c,Walking Liberty,Fine,AATA,HBAC,$10.00,18.0,8.0,Available,2409,50,c,Silver
+14283,US,1920-D,50c,Walking Liberty,VG,AATA,HBAC,$10.00,33.0,23.0,Available,2409,50,c,Silver
+14282,US,1918,50c,Walking Liberty,Fine,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14281,US,1917-S Rev,50c,Walking Liberty,Good,AATA,HBAC,$10.00,18.0,8.0,Available,2409,50,c,Silver
+14280,US,1923-S,50c,Walking Liberty,VG,AATA,HBAC,$10.00,27.0,17.0,Available,2409,50,c,Silver
+14279,US,1927-S,50c,Walking Liberty,Fine,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14278,US,1918-D,50c,Walking Liberty,VG,AATH,HBAC,$12.00,28.0,16.0,Available,2409,50,c,Silver
+14277,US,1954-D,50c,Franklin,MS-63,AATH,HBAC,$12.00,19.0,7.0,Available,2409,50,c,Unknown
+14276,US,1951-S,50c,Franklin,Unc,AATH,HBAC,$12.00,20.0,8.0,Available,2409,50,c,Unknown
+14275,US,1949-S,50c,Franklin,MS-64,AAOC,HBAC,$69.00,58.0,11.0,Available,2409,50,c,Unknown
+14274,US,1949-S,50c,Franklin,Unc,AAHA,HBAC,$20.00,58.0,38.0,Available,2409,50,c,Unknown
+14273,US,1951-S,50c,Franklin,Unc,AATH,HBAC,$12.00,20.0,8.0,Available,2409,50,c,Unknown
+14272,US,1951-S,50c,Franklin,Unc,AATH,HBAC,$12.00,20.0,8.0,Available,2409,50,c,Unknown
+14271,US,1951-S,50c,Franklin,Unc,AATH,HBAC,$12.00,20.0,8.0,Available,2409,50,c,Unknown
+14270,US,1951-S,50c,Franklin,Unc,AATH,HBAC,$12.00,20.0,8.0,Available,2409,50,c,Unknown
+14269,US,1949-S,50c,Franklin,AU,AATH,HBAC,$12.00,33.0,21.0,Available,2409,50,c,Unknown
+14265,US,1938-D,50c,Walking Liberty,Fine,AAHR,HBAC,$25.00,71.0,46.0,Available,2409,50,c,Silver
+14264,US,1938-D,50c,Walking Liberty,VF,AAEA,HBAC,$30.00,88.0,58.0,Available,2409,50,c,Silver
+14263,US,1918-S,50c,Walking Liberty,VF+,AAHR,HBAC,$25.00,55.0,30.0,Available,2409,50,c,Silver
+14262,US,1917-S Obv,50c,Walking Liberty,VG,AATR,HBAC,$15.00,49.0,34.0,Available,2409,50,c,Silver
+14261,US,1917-S Rev,50c,Walking Liberty,VG,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14260,US,1919-S,50c,Walking Liberty,Good,AATT,HBAC,$11.00,20.0,9.0,Available,2409,50,c,Silver
+14259,US,1923-S,50c,Walking Liberty,VG,AATA,HBAC,$10.00,27.0,17.0,Available,2409,50,c,Silver
+14258,US,1945,50c,Walking Liberty,AU58,AATR,HBAC,$15.00,24.0,9.0,Available,2409,50,c,Silver
+14257,US,1917-S Rev,50c,Walking Liberty,VG,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14256,US,1917-S Rev,50c,Walking Liberty,VG,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14255,US,1917-D Obv,50c,Walking Liberty,Good,AATA,HBAC,$10.00,24.0,14.0,Available,2409,50,c,Silver
+14254,US,1933-S,50c,Walking Liberty,VF,AATA,HBAC,$10.00,31.0,21.0,Available,2409,50,c,Silver
+14253,US,1919,50c,Walking Liberty,VG,AATA,HBAC,$10.00,44.0,34.0,Available,2409,50,c,Silver
+14252,US,1936,5c,Buffalo,Unc,AAAE,HBAC,$3.00,20.0,17.0,Available,2409,5,c,Gold
+14251,US,1931-S,1c,Lincoln,VF,AAEA,HBAC,$30.00,77.0,47.0,Available,2409,1,c,Copper
+14250,US,1909-S VDB,1c,Lincoln,XF,ANAA,HBAC,$800.00,1360.0,560.0,Available,2409,1,c,Copper
+14249,US,1881,3c,Three Cent Nickel,XF,AAHA,HBAC,$20.00,37.0,17.0,Available,2409,3,c,Nickel
